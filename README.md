@@ -31,8 +31,8 @@ ___
 
 ## 3. Example Output
 ![image](https://user-images.githubusercontent.com/63220297/172418145-ef57d413-e8bd-4d4d-ba99-746065d77689.png)
-![image](https://user-images.githubusercontent.com/63220297/172418460-d4c3a7e5-f2b7-4063-a9f1-2211d61826fe.png)
-![image](https://user-images.githubusercontent.com/63220297/172418406-0fa56a96-f034-4504-a06f-9276ffcc7caf.png)
+![image](https://user-images.githubusercontent.com/63220297/172424990-e168e71f-ab3f-4849-ac44-28b64a264f0e.png)
+![image](https://user-images.githubusercontent.com/63220297/172425039-a31f912a-3c36-4d2e-af44-61689664c8b4.png)
 
 ___
 
