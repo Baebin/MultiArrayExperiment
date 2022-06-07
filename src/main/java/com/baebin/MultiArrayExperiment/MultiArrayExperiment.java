@@ -56,8 +56,8 @@ public class MultiArrayExperiment {
         String empty = "     ";
         pln(empty + "Student: <" + students[a][b][c][d] + ">");
         pln(empty + "- School: " + Info.SCHOOL.get(a));
-        pln(empty + "- Class: " + Info.CLASS.get(b));
-        pln(empty + "- Grade: " + Info.GRADE.get(c));
+        pln(empty + "- Grade: " + Info.GRADE.get(b));
+        pln(empty + "- Class: " + Info.CLASS.get(c));
         pln(empty + "- Number: " + Info.NUMBER.get(d));
         pln(empty + "- " + Info.SUBJECT.get(e) + ": "
                                                + scores[a][b][c][d][e]);
@@ -69,7 +69,7 @@ public class MultiArrayExperiment {
         File csv = FileManager.getFile("Data.csv");
         BufferedWriter bw = new BufferedWriter(new FileWriter(csv));
 
-        bw.write("School,Class,Grade,Number,Subject");
+        bw.write("School,Grade,Class,Number,Subject");
         bw.newLine();
 
         for (int i = 0; i < Info.NUMBER.size(); i++) {
@@ -97,7 +97,7 @@ public class MultiArrayExperiment {
         File csv = FileManager.getFile("Students.csv");
         BufferedWriter bw = new BufferedWriter(new FileWriter(csv));
 
-        bw.write("Name,School,Class,Grade,Number");
+        bw.write("Name,School,Grade,Class,Number");
         for (int i = 0; i < Info.SUBJECT.size(); i++) {
             bw.write("," + Info.SUBJECT.get(i));
         }
