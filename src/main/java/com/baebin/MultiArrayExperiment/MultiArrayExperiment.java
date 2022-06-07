@@ -75,9 +75,9 @@ public class MultiArrayExperiment {
         for (int i = 0; i < Info.NUMBER.size(); i++) {
             if (Info.SCHOOL.size() > i) bw.write(Info.SCHOOL.get(i));
             bw.write(",");
-            if (Info.CLASS.size() > i) bw.write(Info.CLASS.get(i).toString());
-            bw.write(",");
             if (Info.GRADE.size() > i) bw.write(Info.GRADE.get(i).toString());
+            bw.write(",");
+            if (Info.CLASS.size() > i) bw.write(Info.CLASS.get(i).toString());
             bw.write(",");
             if (Info.NUMBER.size() > i) bw.write(Info.NUMBER.get(i).toString());
             bw.write(",");
