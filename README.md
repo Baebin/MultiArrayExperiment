@@ -15,7 +15,7 @@ ___
 ## 1. What is this?
 - (This project was programmed to study Multidimensional Arrays.)
 - When running a project, automatically generate student's school, grade, class, numeric data and name.
-- Then create the files "Data.csv" (contains category information) and "Students.csv" (contains data for all students).
+- Then the files "Data.csv" (contains category information) and "Students.csv" (contains data for all students) are created.
 - Finally, the indexes are entered to search the subject scores for a particular student.
 - ***(Keep in mind! Run the project without opening the file. / An error occurs when entering a non-numeric value.)***
 ___
