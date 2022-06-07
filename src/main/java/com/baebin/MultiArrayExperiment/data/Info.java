@@ -32,7 +32,7 @@ public class Info {
         for (int i = 1; i <= 3; i++) {
             GRADE.add(i);
         }
-        for (int i = 1; i <= 5; i++) {
+        for (int i = 1; i <= 10; i++) {
             CLASS.add(i);
         }
         for (int i = 1; i <= 30; i++) {

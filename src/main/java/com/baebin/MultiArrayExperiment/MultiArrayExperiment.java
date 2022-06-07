@@ -32,14 +32,17 @@ public class MultiArrayExperiment {
         List<Integer> indexes = new ArrayList<>();
         List<String> categories = Info.CATEGORY;
 
+        pln("");
         do {
             p(">> Type the " + categories.get(indexes.size()) + ": ");
             if (scanner.hasNext()) {
                 try {
                     indexes.add(scanner.nextInt());
                     if (indexes.size() == 5) {
+                        pln("");
                         pInfo(indexes.get(0), indexes.get(1), indexes.get(2), indexes.get(3), indexes.get(4));
                         indexes.clear();
+                        pln("");
                     }
                 } catch (NumberFormatException e) {
                     pln("숫자가 올바르지 않습니다.");
